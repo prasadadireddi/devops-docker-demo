@@ -3,6 +3,7 @@ var app = express();
 
 app.get('/', function (req, res) {
   res.send('sent from prasad branch!');
+  res.send('hi welcome to devops');
 });
 
 var server = app.listen(3000, function () {
